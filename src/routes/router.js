@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <AnswersPage />,
     },
     {
-        path: "/directions",
+        path: "/programms",
         element: <DirectionsPage />,
     }
 ]);
