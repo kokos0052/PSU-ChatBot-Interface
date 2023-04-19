@@ -1,12 +1,10 @@
 import { useCallback, useEffect, useState } from "react";
 import { useTelegram } from "../../hooks/useTelegram";
-import { useNavigate } from "react-router-dom";
 
 
 function Form() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const navigate = useNavigate();
 
   const { tg } = useTelegram();
 
@@ -18,7 +16,6 @@ function Form() {
       })
     );
 
-    navigate("/");
   }, [username, password, tg]);
 
   useEffect(() => {

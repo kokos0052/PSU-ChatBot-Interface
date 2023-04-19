@@ -18,6 +18,7 @@ function AdminPage() {
       display="flex"
       justifyContent="center"
       alignItems="center"
+      p={5}
     >
       <Button
         pos="absolute"
@@ -34,7 +35,7 @@ function AdminPage() {
       >
         Создать ответ
       </Button>
-      <Box display="flex" flexDir="column" alignItems="center">
+      <Box display="flex" flexDir="column" alignItems="center"  p={5}>
         <Box fontSize={22} fontWeight={700} color="#00AC97">
           Добро пожаловать
         </Box>
