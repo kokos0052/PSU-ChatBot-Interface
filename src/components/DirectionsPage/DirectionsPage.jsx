@@ -28,7 +28,7 @@ function DirectionsPage() {
       <Heading as="h2" size="2xl">
         Направления нашего университета
       </Heading>
-      <Card mt={5} size="lg">
+      {/* <Card mt={5} size="lg">
         <InputGroup>
           <Input placeholder="Поиск" _placeholder={{ color: "#00AC97" }} />
           <InputRightElement children={<SearchIcon color="#00AC97" />} />
@@ -44,7 +44,7 @@ function DirectionsPage() {
             ))}
           </Select>
         )}
-      </Card>
+      </Card> */}
 
       {directions.map((direction, i) => (
         <Direction
