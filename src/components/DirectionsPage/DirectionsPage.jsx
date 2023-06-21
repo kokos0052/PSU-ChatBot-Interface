@@ -1,18 +1,18 @@
-import { SearchIcon } from "@chakra-ui/icons";
+// import { SearchIcon } from "@chakra-ui/icons";
 import {
   Box,
-  Card,
+  // Card,
   Heading,
-  Input,
-  InputGroup,
-  InputRightElement,
-  Select,
+  // Input,
+  // InputGroup,
+  // InputRightElement,
+  // Select,
 } from "@chakra-ui/react";
 import { AppState } from "../../context";
 import Direction from "../Direction/Direction";
 
 function DirectionsPage() {
-  const unvercities = AppState().unvercities;
+  // const unvercities = AppState().unvercities;
   const directions = AppState().directions;
 
   return (
