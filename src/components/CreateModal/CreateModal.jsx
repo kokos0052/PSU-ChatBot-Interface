@@ -11,7 +11,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { sendAnswer } from "../../mics/api";
+// import { sendAnswer } from "../../mics/api";
 
 function CreateModal({ onClose }) {
     const [label, setLabel] = useState("");
@@ -23,15 +23,15 @@ function CreateModal({ onClose }) {
     }
 
     async function createAnswer() {
-      const data = {
-        label,
-        input,
-        output,
-      }
+      // const data = {
+      //   label,
+      //   input,
+      //   output,
+      // }
 
-      const response = await sendAnswer(data);
+      // const response = await sendAnswer(data);
 
-      if (response) {
+      if (label && input && output) {
         onClose();
       }
     }
